@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--[if le IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  </script>
+<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+      
+    <title>Eggy Timer</title>
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+      
+    <script src="assets/js/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+      
+    <script src="main.js"></script>
+      
+  </head>
+
+  <body>
+      
+      <section id="current-clock">
+          <div class="container">
+              <h1>
+                <p class="text-center"><span id="spanHours">00</span>:<span id="spanMinutes">00</span>:<span id="spanSeconds">00</span></p>
+
+              </h1>
+
+          </div>    
+      </section>
+      
+      <section id="countdown-timer">      
+          <div class="container text-center center-block">
+              
+              <h3><p>Countdown:  <span id="spanCountdown">00</span></p></h3>
+              
+ <!-- Minutes Seconds -->             
+              <div class="row text-center center-block">
+                  
+                    <!-- Minutes button -->
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="minutes">
+                        minutes <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">0</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                        <li><a href="#">11</a></li>
+                        <li><a href="#">12</a></li>
+                        <li><a href="#">13</a></li>
+                        <li><a href="#">14</a></li>
+                        <li><a href="#">15</a></li>
+                        <li><a href="#">16</a></li>
+                        <li><a href="#">17</a></li>
+                        <li><a href="#">18</a></li>
+                        <li><a href="#">19</a></li>
+                        <li><a href="#">20</a></li>
+                        <li><a href="#">21</a></li>
+                        <li><a href="#">22</a></li>
+                        <li><a href="#">23</a></li>
+                        <li><a href="#">24</a></li>
+                        <li><a href="#">25</a></li>
+                        <li><a href="#">26</a></li>
+                        <li><a href="#">27</a></li>
+                        <li><a href="#">28</a></li>
+                        <li><a href="#">29</a></li>
+                        <li><a href="#">30</a></li>
+                        <li><a href="#">31</a></li>
+                        <li><a href="#">32</a></li>
+                        <li><a href="#">33</a></li>
+                        <li><a href="#">34</a></li>
+                        <li><a href="#">35</a></li>
+                        <li><a href="#">36</a></li>
+                        <li><a href="#">37</a></li>
+                        <li><a href="#">38</a></li>
+                        <li><a href="#">39</a></li>
+                        <li><a href="#">40</a></li>
+                        <li><a href="#">41</a></li>
+                        <li><a href="#">42</a></li>
+                        <li><a href="#">43</a></li>
+                        <li><a href="#">44</a></li>
+                        <li><a href="#">45</a></li>
+                        <li><a href="#">46</a></li>
+                        <li><a href="#">47</a></li>
+                        <li><a href="#">48</a></li>
+                        <li><a href="#">49</a></li>
+                        <li><a href="#">50</a></li>
+                        <li><a href="#">51</a></li>
+                        <li><a href="#">52</a></li>
+                        <li><a href="#">53</a></li>
+                        <li><a href="#">54</a></li>
+                        <li><a href="#">55</a></li>
+                        <li><a href="#">56</a></li>
+                        <li><a href="#">57</a></li>
+                        <li><a href="#">58</a></li>
+                        <li><a href="#">59</a></li>
+                        <li><a href="#">60</a></li>
+                      </ul>
+                    </div><!-- button group -->
+                      
+                    <!-- Seconds button -->            
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="seconds">
+                        seconds <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">0</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                        <li><a href="#">11</a></li>
+                        <li><a href="#">12</a></li>
+                        <li><a href="#">13</a></li>
+                        <li><a href="#">14</a></li>
+                        <li><a href="#">15</a></li>
+                        <li><a href="#">16</a></li>
+                        <li><a href="#">17</a></li>
+                        <li><a href="#">18</a></li>
+                        <li><a href="#">19</a></li>
+                        <li><a href="#">20</a></li>
+                        <li><a href="#">21</a></li>
+                        <li><a href="#">22</a></li>
+                        <li><a href="#">23</a></li>
+                        <li><a href="#">24</a></li>
+                        <li><a href="#">25</a></li>
+                        <li><a href="#">26</a></li>
+                        <li><a href="#">27</a></li>
+                        <li><a href="#">28</a></li>
+                        <li><a href="#">29</a></li>
+                        <li><a href="#">30</a></li>
+                        <li><a href="#">31</a></li>
+                        <li><a href="#">32</a></li>
+                        <li><a href="#">33</a></li>
+                        <li><a href="#">34</a></li>
+                        <li><a href="#">35</a></li>
+                        <li><a href="#">36</a></li>
+                        <li><a href="#">37</a></li>
+                        <li><a href="#">38</a></li>
+                        <li><a href="#">39</a></li>
+                        <li><a href="#">40</a></li>
+                        <li><a href="#">41</a></li>
+                        <li><a href="#">42</a></li>
+                        <li><a href="#">43</a></li>
+                        <li><a href="#">44</a></li>
+                        <li><a href="#">45</a></li>
+                        <li><a href="#">46</a></li>
+                        <li><a href="#">47</a></li>
+                        <li><a href="#">48</a></li>
+                        <li><a href="#">49</a></li>
+                        <li><a href="#">50</a></li>
+                        <li><a href="#">51</a></li>
+                        <li><a href="#">52</a></li>
+                        <li><a href="#">53</a></li>
+                        <li><a href="#">54</a></li>
+                        <li><a href="#">55</a></li>
+                        <li><a href="#">56</a></li>
+                        <li><a href="#">57</a></li>
+                        <li><a href="#">58</a></li>
+                        <li><a href="#">59</a></li>
+                        <li><a href="#">60</a></li>
+                      </ul>
+                    </div><!-- button group -->
+        
+              </div><!-- /.row -->
+              
+          </div><!-- /.container -->   
+          
+         <p></p> 
+          
+        <div class="container text-center center-block">
+          <div class="row">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-success" id="btn_Start">Start</button>
+              </div><!-- button group -->  
+              
+              <div class="btn-group">
+              <button type="button" class="btn btn-warning" id="btn_Pause">Pause</button>
+              </div><!-- button group -->
+              
+              <div class="btn-group">
+              <button type="button" class="btn btn-info" id="btn_Resume">Resume</button>
+              </div><!-- button group -->
+              
+              <div class="btn-group">
+              <button type="button" class="btn btn-danger" id="btn_Reset">Reset</button>
+              </div><!-- button group -->
+              
+            </div><!-- row -->
+        </div><!-- container -->  
+
+              
+      </section>
+
+      
+      
+    <section id="stuff">
+          <div class="container text-center center-block">
+            <hr>
+          <footer>
+            <p>&copy; 2016 dbk.guru</p>
+          </footer>
+              
+        </div> <!-- /container -->
+      </section>
+      
+      
+  </body>
+
+
+</html>
